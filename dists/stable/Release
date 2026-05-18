@@ -1,0 +1,25 @@
+Origin: https://7jari.github.io/droidian-debs
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Mon, 18 May 2026 12:47:33 +0000
+MD5Sum:
+ 498ec731fdd85a672e685be00b8ba58f              209 Release
+ a5c9bf593965cd6ea7da6257d785946d             7871 main/binary-arm64/Packages
+ 1c2cb3d4cb6b48b72bd4784c9031f688             1751 main/binary-arm64/Packages.gz
+SHA1:
+ 04fe2d39ad9af4b5b2e06682cdc4b01656e9c778              209 Release
+ 2f1022d5c61a760de4cc23003e4a8b6d8e7c8365             7871 main/binary-arm64/Packages
+ 12a5b001519c256a4b760174afc465feb28e4f90             1751 main/binary-arm64/Packages.gz
+SHA256:
+ 17eae41512a05795742a68eb02d6b1938e5f4219cd97b5b147db4f90e93b3dc5              209 Release
+ e00fd59c454e217d9edf57f34daa1864327089c72f935b72050f89279b2172eb             7871 main/binary-arm64/Packages
+ 561cd166a02a54fd73a320febfb816228d3ae972994aab42c76425d7f71cfc50             1751 main/binary-arm64/Packages.gz
+SHA512:
+ f57edffe4b50c9cb8ae8fb9590b5f556aa1d5b1324acd2c8282472fcbe3575d1a7fda225136f06efc45efafa0f6c88b441d7c1ce6e206bf11527b3b7e08936a6              209 Release
+ dc0888fa8ec2bd36ad59d5ebe052b95d7d72160d1aa8d9f2dbe363d61b51f878654ed01da654a44a917240718f7e6dc03e70e3027fdfaf181caa32ee985f2dd3             7871 main/binary-arm64/Packages
+ eafcd06f8c1be27e39c10c466a3bc89ea946937a116254be3df2d6ade015a1752a362f08ba5cb3ba2adfb99dfdc94a496cb69b27d22397346dbda38a80337100             1751 main/binary-arm64/Packages.gz

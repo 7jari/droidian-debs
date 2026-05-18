@@ -1,0 +1,155 @@
+Package: adaptation-xiaomi-merlin
+Version: 0.0.0+git20250211093714.d5e2969.bookworm+git20260508123228.bf96a5a.halium.13+git20260518121208.1fe1d13.halium.13
+Architecture: arm64
+Maintainer: Sanakhat Chari <zadigsm@outlook.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api33-phone, adaptation-xiaomi-merlin-configs (= 0.0.0+git20250211093714.d5e2969.bookworm+git20260508123228.bf96a5a.halium.13+git20260518121208.1fe1d13.halium.13)
+Filename: packages/adaptation-xiaomi-merlin_0.0.0+git20250211093714.d5e2969.bookworm+git20260508123228.bf96a5a.halium.13+git20260518121208.1fe1d13.halium.13_arm64.deb
+Size: 2332
+MD5sum: 64602ad66c2ee8039feb6bb3b8409cdb
+SHA1: abf05fb61828df6e16741f749b2d206cf737e78d
+SHA256: 57a12406f62813e34f0cf7b5612377ba0fa2824b84bdd3bd80ccba6c943a188d
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-merlin - metapackage
+X-Droidian-Vcs-Revision: 1fe1d13d8fef3b6f9d4f934fdc4dede1b0a01a4f
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/droidian-adaptation-xiaomi-merlin
+
+Package: adaptation-xiaomi-merlin-configs
+Source: adaptation-xiaomi-merlin
+Version: 0.0.0+git20250211093714.d5e2969.bookworm+git20260508123228.bf96a5a.halium.13+git20260518121208.1fe1d13.halium.13
+Architecture: arm64
+Maintainer: Sanakhat Chari <zadigsm@outlook.com>
+Installed-Size: 109
+Filename: packages/adaptation-xiaomi-merlin-configs_0.0.0+git20250211093714.d5e2969.bookworm+git20260508123228.bf96a5a.halium.13+git20260518121208.1fe1d13.halium.13_arm64.deb
+Size: 12808
+MD5sum: 6e8b0f3cc259ef38d238595d0a72569e
+SHA1: d5e171db09661a99828498a94e6a553c8195a417
+SHA256: 67b52d24a4372a5227d69aab1d55cac4e71bcda44a5bca0b87cc5bfd1dc7a4e5
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-merlin - adaptation configurations
+X-Droidian-Vcs-Revision: 1fe1d13d8fef3b6f9d4f934fdc4dede1b0a01a4f
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/droidian-adaptation-xiaomi-merlin
+
+Package: linux-bootimage-4.14.186-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 65051
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.14.186-xiaomi-merlin (= 0.0.0+git20260517005617.2d5504b.halium.13.droidian)
+Filename: packages/linux-bootimage-4.14.186-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 65523928
+MD5sum: 96adcfe4810e0e7193f0e00e2d436cdb
+SHA1: 0cc3b47ca1dbef9cabd7c31daa8619bbe8109ee8
+SHA256: 7538031e42ce9f411a9c0b95e931c9cf23258098c301b75174f22c09160cb6c7
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Android Boot Image
+ This package contains the Linux kernel for the Xiaomi Redmi Note 9 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
+Package: linux-bootimage-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.14.186-xiaomi-merlin (= 0.0.0+git20260517005617.2d5504b.halium.13.droidian)
+Filename: packages/linux-bootimage-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 1376
+MD5sum: 1271177f54f1abbcf4b631d6f08fbc53
+SHA1: 86e6104a6282e7ec17a8f82cd05c136bd4a311a8
+SHA256: d45152df48cea49e1cba1fd97ac74990e80ffc144c8f3627ba4cd0aa699ca166
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Xiaomi Redmi Note 9.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
+Package: linux-headers-4.14.186-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 64150
+Depends: linux-image-4.14.186-xiaomi-merlin (= 0.0.0+git20260517005617.2d5504b.halium.13.droidian)
+Filename: packages/linux-headers-4.14.186-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 8941684
+MD5sum: d7ea174b2f1107e082813c50d545ac50
+SHA1: 060444c98097a5a2fd3a9748ca873a39129f47a9
+SHA256: 729dedf16f99139c319fa4f515bdc0c2902dc2404a30ef5c76eb5bcfdbceb674
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Headers
+ This package contains the Linux kernel headers for the Xiaomi Redmi Note 9 device.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
+Package: linux-headers-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.14.186-xiaomi-merlin (= 0.0.0+git20260517005617.2d5504b.halium.13.droidian)
+Filename: packages/linux-headers-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 1356
+MD5sum: f2ccd3b07ff89b55326292352d4e1d7e
+SHA1: 2da8cff72fd49fb919712b60f5adc89e2950620d
+SHA256: b2a084bb7841f98d550b0f9841ebd5261023e7aa734bb08d9003ee9b8fcc6149
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Headers (latest)
+ This package depends to the latest kernel headers available for the Xiaomi Redmi Note 9.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
+Package: linux-image-4.14.186-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 22094
+Filename: packages/linux-image-4.14.186-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 16908260
+MD5sum: 2c441c4637a19c605715a31acb679ce6
+SHA1: 11791969f25967b021f16d7207db6e21e3f60659
+SHA256: 3271d9fe16541fdc3ae20b9175368ef5ea22b9190f432ae943624fbc99ded81a
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9
+ This package contains the Linux kernel for the Xiaomi Redmi Note 9 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.14.186-xiaomi-merlin package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
+Package: linux-image-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20260517005617.2d5504b.halium.13.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.14.186-xiaomi-merlin (= 0.0.0+git20260517005617.2d5504b.halium.13.droidian)
+Filename: packages/linux-image-xiaomi-merlin_0.0.0+git20260517005617.2d5504b.halium.13.droidian_arm64.deb
+Size: 1348
+MD5sum: a0727a1b52b44992385d6516015e9481
+SHA1: 5f2abff5ccdbe5623214cc91f7c984555a6f8935
+SHA256: 45a6782485f4c7770275526a7815f92b814495139d26a610b879742424ee2020
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 (latest)
+ This package depends to the latest kernel image available for the Xiaomi Redmi Note 9.
+X-Droidian-Vcs-Revision: 2d5504b494a3ec9f6b890be95b0e2f78de9eeb98
+X-Droidian-Vcs-Url: https://github.com/Redmi-MT6768-Nyari/linux-android-xiaomi-merlin
+
